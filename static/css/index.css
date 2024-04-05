@@ -1,0 +1,586 @@
+
+body {
+    color: #333;
+    font-size: 15px;
+    font-family: Arial,"Microsoft YaHei","\u5b8b\u4f53",Tahoma,Geneva,sans-serif;
+    line-height: 1;
+}
+
+.wrapper .inner {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.clearfix {
+    display: block;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.wp-search .search-btn input.search-submit {
+    width: 32px;
+    height: 24px;
+    outline: 0;
+    border: 0;
+    background: url(images/sous.png) no-repeat center;
+    cursor: pointer;
+}
+a, button {
+    cursor: pointer;
+}
+.site-lang ul li.links a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+}
+.header .head-left {
+    display: inline-block;
+}
+
+#header .inner {
+    position: relative;
+    min-height: 116px;
+    background: #105fa5 url(images/heabd.jpg) no-repeat center bottom;
+}
+
+.header .sitelogo {
+    float: left;
+    padding-top: 10px;
+}
+
+#header {
+    background: #105fa5;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    transition: all .4s ease-in-out;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+img {
+    vertical-align: top;
+}
+abbr, body, fieldset, html, iframe, img {
+    border: 0;
+}
+.header .sitetitle {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    display: none !important;
+}
+
+/* 窗口2 */
+.header .head-right {
+    float: right;
+    margin-top: 45px;
+    width: 217px;
+}
+.site-lang {
+    float: right;
+    margin-top: -25px;
+}
+.clearfix {
+    display: block;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.site-lang ul {
+    float: right;
+}
+.clearfix {
+    display: block;
+}
+.site-lang ul li.links {
+    float: left;
+}
+li {
+    list-style: none;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.site-lang ul li.links a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+}
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    transition: all .4s ease-in-out;
+}
+a, button {
+    cursor: pointer;
+}
+
+searchbox {
+    float: left;
+    width: 156px;
+    text-align: right;
+    margin-top: 5px;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wp-search {
+    position: relative;
+    border: 1px solid #d0d0d0;
+}
+.clearfix {
+    display: block;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.wp-search form {
+    display: block;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body, ul, ol, li, h1, h2, h3, h4, h5, h6, td, th, form, fieldset, img, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+.wp-search .search-input {
+    margin-right: 40px;
+    margin-left: 4px;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.wp-search .search-input input.search-title {
+    padding: 4px 0;
+    width: 100%;
+    height: 16px;
+    outline: 0;
+    border: 0;
+    background: 0 0;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .6;
+    font-family: 微软雅黑;
+}
+.wp-search .search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 24px;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.wp-search .search-btn input.search-submit {
+    width: 32px;
+    height: 24px;
+    outline: 0;
+    border: 0;
+    background: url(images/sous.png) no-repeat center;
+    cursor: pointer;
+}
+
+
+/* 首页 学院概况 */
+#nav {
+    border-bottom: 5px solid #d6bd88;
+    background: #105fa5 url(images/navbd.jpg) no-repeat center;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+#nav .inner {
+    border-top: 1px solid #3977ae;
+}
+.wrapper .inner {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.clearfix {
+    display: block;
+}
+
+#nav .inner .wp-panel {
+    height: 45px;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav .inner .wp-panel .wp-window {
+    height: 45px;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.wp-menu {
+    margin: 0 auto;
+}
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.wp-menu .menu-item.i1 {
+    background: 0 0;
+}
+.wp-menu .menu-item {
+    position: relative;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+.wp-menu .menu-item a.menu-link {
+    display: inline-block;
+    min-width: 100px;
+    color: #fffefe;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+    width: 100%;
+}
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    transition: all .4s ease-in-out;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    z-index: 100;
+    display: none;
+    min-width: 100%;
+    background: #fff;
+}
+.sub-menu .sub-item {
+    position: relative;
+    vertical-align: top;
+    white-space: nowrap;
+}
+li {
+    list-style: none;
+}
+.sub-menu .sub-item a {
+    display: block;
+    padding: 0 17px;
+    height: 40px;
+    background: 0 0;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+}
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    transition: all .4s ease-in-out;
+}
+a, a:hover, del, ins, s, u {
+    text-decoration: none;
+}
+a, button {
+    cursor: pointer;
+}
+sub-menu .sub-item {
+    position: relative;
+    vertical-align: top;
+    white-space: nowrap;
+}
+li {
+    list-style: none;
+}
+.sub-menu .sub-item a {
+    display: block;
+    padding: 0 17px;
+    height: 40px;
+    background: 0 0;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+
+/* 第三部分 轮播图 */
+#banner {
+    background: url(images/banbd.jpg) center;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+#banner .inner {
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    text-align: center;
+}
+.wrapper .inner {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.clearfix {
+    display: block;
+}
+
+.focus-box {
+    background-position: center;
+    position: relative;
+    font-family: '\5b8b\4f53';
+}
+
+.focus-container {
+    overflow: hidden;
+    position: relative;
+    visibility: hidden;
+}
+.focus-container .focus-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    transition: all .4s ease-in-out;
+}
+.mbanner .focus .focus-title-bar {
+    bottom: 40px;
+    left: 40px;
+    margin-left: 0;
+}
+mbanner .focus .focus-title-bg {
+    display: none;
+    background-color: #000;
+    opacity: .4;
+}
+mbanner .focus .focus-title-bg {
+    display: none;
+    background-color: #000;
+    opacity: .4;
+}
+mbanner .focus .focus-title-bg {
+    display: none;
+    background-color: #000;
+    opacity: .4;
+}
+.mbanner .focus .focus-navigation {
+    width: 39px;
+    height: 64px;
+    border-radius: 6px;
+    background: #000 url(images/slide_next.png) no-repeat 5px;
+    text-indent: -999em;
+    opacity: .6;
+}
+.mbanner .focus .focus-pagination {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    z-index: 60;
+    margin-right: 0;
+}
+.mbanner .focus .focus-pagination {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    z-index: 60;
+    margin-right: 0;
+}
+.mbanner .focus .focus-pagination {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    z-index: 60;
+    margin-right: 0;
+}
+.focus-page {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #999;
+    color: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* 学院要闻 */
+
+.main1 {
+    background: url(images/main.png) no-repeat;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+.main1 .inner {
+    padding: 25px 0 0;
+}
+.wrapper .inner {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.clearfix {
+    display: block;
+}
+.main1 .ml {
+    float: left;
+    padding-top: 14px;
+    width: 718px;
+}
+.biaoti {
+    margin-bottom: 6px;
+    width: 718px;
+    height: 40px;
+}
+.biaoti {
+    margin-bottom: 6px;
+    width: 718px;
+    height: 40px;
+}
+.biaoti h3.tit {
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 15px 15px 0 0;
+    background: #bedcf6;
+    color: #105fa5;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.biaoti .more_btn {
+    float: right;
+    font-size: 14px;
+    line-height: 28px;
+}
+a {
+    color: #3b3b3b;
+    text-decoration: none;
+    font-family: "微软雅黑";
+    transition: all .4s ease-in-out;
+}
+.biaoti span.more_text {
+    cursor: pointer;
+}
+
+.mml {
+    float: left;
+    width: 350px;
+}
+.mml {
+    float: left;
+    width: 350px;
+}
+.post .con {
+    margin: 0 auto;
+    padding: 6px 0;
+}
+.focus-box {
+    background-position: center;
+    position: relative;
+    font-family: '\5b8b\4f53';
+}
+.focus-container {
+    overflow: hidden;
+    position: relative;
+    visibility: hidden;
+}
+.focus-container .focus-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.focus-container .focus-item img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    border: 0;
+    vertical-align: top;
+}
+
+.focus-container .focus-item img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    border: 0;
+    vertical-align: top;
+}
+.post-11 .focus .focus-title-bg {
+    background-color: #f1f1f1 !important;
+}
+.post-11 .focus .focus-title {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px;
+    font-size: 16px !important;
+    display: block !important;
+}
+.post-11 .focus .focus-pagination {
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+    width: 100%;
+    height: 30px;
+    line-height: 25px;
+    background: url(images/focus_bg.png)no-repeat right center;
+}
+.post.post1.post-13.mbox {
+    margin-bottom: -18px;
+}
+.post-13 .news_text {
+    padding-top: 5px;
+    padding-bottom: 13px;
+}
+.post-13 .news_text {
+    padding-top: 5px;
+    padding-bottom: 13px;
+}
