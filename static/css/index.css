@@ -887,3 +887,100 @@ a, button {
 .post-26 li.n7 {
     background: url(images/icon7.png) no-repeat;
 }
+
+
+
+/* 尾部 */
+#footer {
+    background: #105fa5;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+#footer .inner {
+    position: relative;
+    padding: 0 0;
+}
+.wrapper .inner {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.clearfix {
+    display: block;
+}
+.foot—lm.clearfix {
+    margin: auto;
+}
+
+.foot—lm.clearfix .tt {
+    float: left;
+    line-height: 34px;
+    padding: 25px 14px;
+}
+.foot—lm.clearfix .title {
+    color: #fff;
+    font-size: 14px;
+}
+
+.foot—lm.clearfix li a {
+    color: #fff !important;
+}
+.foot—lm.clearfix li {
+    float: left;
+    line-height: 34px;
+    padding: 25px 14px;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    content: " ";
+}
+
+/* 横线往下 */
+#footer .inner .foot-left {
+    padding: 45px 0;
+    border-top: 1px solid #287cc6;
+}
+#footer .inner p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "微软雅黑";
+    line-height: 28px;
+    opacity: .7;
+}
+#footer .inner p span {
+    margin: 0 3px;
+}
+
+#footer .inner .foot-right {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.foot-right li {
+    float: right;
+    margin-left: 20px;
+}
+.vx a, .vx li, .vx span {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 29px;
+}
+.foot-right img {
+    width: 80px;
+    height: 80px;
+    transition: 0.2s;
+}
+img {
+    vertical-align: top;
+}
