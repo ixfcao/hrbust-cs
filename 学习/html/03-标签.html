@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- lang="en" 代表语言 -->
+<html lang="en"> 
+	<head>
+		<!-- 指定编码 -->
+		<meta charset="utf-8">
+		<title></title>
+		<title></title>
+	</head>
+	<body>
+		
+        <!-- em 斜体 着重要读的内容 -->
+        <em>着重阅读的</em>
+        <strong>重要阅读的文本标签</strong>
+        <span>小包装袋 通用容器 可通过CSS去控制格式</span>
+        <div>大包装袋 </div>
+
+        <!-- 不常用文本标签 -->
+		
+		<!-- 图片标签  
+			alt搜索引擎可以根据alt获取有利于seo
+			图片失败 显示文字
+
+			宽高一般调节一个就可以了
+		-->
+		<img src="../校门照片.jpg" alt="" width="" height="">
+		<img src="../../捕获.PNG" alt="" width="" height="">
+		<!-- 绝对路径 -->
+		<img src="C:\Users\曹新放\Pictures\壁纸" alt="" width="" height="">
+		<!-- 网络绝对路径 -->
+		<img src="//www.baidu.com/img/PCfb_5bf082d29588c07f842ccde3f97243ea.png" alt="" width="" height="">
+
+
+		------------------------------------------
+		<!-- 
+			target="_blank" 在新页签打开
+			target="_self 在本页签打开
+			a元素可以包裹所有元素，但不可以在包含自a标签
+
+		 -->
+		<a href="https://www.w3cschool.cn/html/dict/" target="_blank">去秒杀</a>
+		<a href="https://www.w3cschool.cn/html/dict/" target="_self">去秒杀</a>
+		<a href="https://www.w3cschool.cn/html/dict/" target="_parent">去秒杀</a>
+		<!-- 打开文件 也可压缩包 
+			打不开的会强制出发下载
+		download强制下载
+		-->
+
+		<!-- 调转到锚点  锚点是a标签 name属性 -->
+		<a href="#kuandu80tupian">跳转到宽度80的图片</a>
+		<!-- id作为锚点跳转更精准 -->
+		<a href="#idmaodian">跳转到宽度2600的图片</a>
+
+
+
+		<a href="../校门照片.jpg"  target="">400的图片</a>
+		<img src="../校门照片.jpg" alt="" width="800" height="">
+
+		<a href="../校门照片.jpg"  target="">1000</a>
+		<img src="../校门照片.jpg" alt="" width="1000" height="">
+
+		<a name="kuandu80tupian"></a>
+		<!-- <p>宽度1800的图片</p> -->
+		<a href="../校门照片.jpg"  target="">1800</a>
+		<img src="../校门照片.jpg" alt="" width="1800" height="">
+
+		<p id="idmaodian"></p>
+		<a href="../校门照片.jpg"  target="">1200000</a>
+		<img src="../校门照片.jpg" alt="" width="2600" height="">
+
+		<!-- 回到顶部 -->
+		<a href="#">回到顶部</a>
+		<a href="">刷新页面</a>
+		<a href="javascript:alert(666)">点我弹窗</a>
+		<a href="#"></a>
+
+		<!-- 唤起指定应用程序 -->
+		<a href="tel:1001"></a>
+		<!-- 唤起设备拨号 -->
+		<a href="tel:10010">电话联系</a>
+		<!-- 唤起设备发送邮件 -->
+		<a href="mailto:10010@qq.com">邮件联系</a>
+		<!-- 唤起设备发送短信 -->
+		<a href="sms:10086">短信联系</a>
+
+
+
+		
+
+
+	</body>
+</html>

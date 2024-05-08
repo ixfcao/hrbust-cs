@@ -97,10 +97,7 @@ abbr, body, fieldset, html, iframe, img {
 .clearfix {
     display: block;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 .site-lang ul {
     float: right;
 }
@@ -113,10 +110,7 @@ blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, 
 li {
     list-style: none;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 .site-lang ul li.links a {
     color: #fff;
     font-size: 12px;
@@ -138,10 +132,7 @@ searchbox {
     text-align: right;
     margin-top: 5px;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 
 .wp-search {
     position: relative;
@@ -150,29 +141,16 @@ blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, 
 .clearfix {
     display: block;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 .wp-search form {
     display: block;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
-body, ul, ol, li, h1, h2, h3, h4, h5, h6, td, th, form, fieldset, img, dl, dt, dd {
-    margin: 0;
-    padding: 0;
-}
+
 .wp-search .search-input {
     margin-right: 40px;
     margin-left: 4px;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 .wp-search .search-input input.search-title {
     padding: 4px 0;
     width: 100%;
@@ -193,10 +171,7 @@ blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, 
     width: 32px;
     height: 24px;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 .wp-search .search-btn input.search-submit {
     width: 32px;
     height: 24px;
@@ -230,25 +205,16 @@ blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, 
 #nav .inner .wp-panel {
     height: 45px;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 
 #nav .inner .wp-panel .wp-window {
     height: 45px;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 .wp-menu {
     margin: 0 auto;
 }
-blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
-    margin: 0;
-    padding: 0;
-}
+
 .wp-menu .menu-item.i1 {
     background: 0 0;
 }
@@ -304,12 +270,7 @@ li {
     font-size: 14px;
     line-height: 40px;
 }
-a {
-    color: #3b3b3b;
-    text-decoration: none;
-    font-family: "微软雅黑";
-    transition: all .4s ease-in-out;
-}
+
 a, a:hover, del, ins, s, u {
     text-decoration: none;
 }
@@ -338,7 +299,7 @@ li {
 
 /* 第三部分 轮播图 */
 #banner {
-    background: url(images/banbd.jpg) center;
+    background: url(images/banner.png) center;
 }
 .wrapper {
     margin: 0 auto;
@@ -491,7 +452,8 @@ mbanner .focus .focus-title-bg {
 /* 学院要闻  第一模块 */
 
 .main1 {
-    background: url(/static/css/images/mainbeijing.png) no-repeat;
+    background: url(/static/css/images/mainbeijing.png);
+    height: 315px;
 }
 .wrapper {
     margin: 0 auto;
@@ -1145,12 +1107,6 @@ li {
     font-size: 14px !important;
 }
 
-a {
-    color: #3b3b3b;
-    text-decoration: none;
-    font-family: "微软雅黑";
-    transition: all .4s ease-in-out;
-}
 
 /* 日期的 */
 .main2 .news_meta {

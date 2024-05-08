@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- lang="en" 代表语言 -->
+<html lang="en"> 
+	<head>
+		<!-- 指定编码 -->
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			/*  选中的是没有访问过的a元素*/
+			a:link{
+				color: orange;
+			}
+			/* 选中访问过的a元素 */
+			a:visited{
+				color: red;
+			}
+			/* 选中的鼠标悬停的元素 */
+			a:hover{
+				color: aqua;
+			}
+			/* 选中的是鼠标激活状态的a元素 */
+			a:active{
+				color: green;
+			}
+
+			/* 获取焦点的颜色 只有表单有 */
+			input:focus{
+				color: blue;
+				background-color: brown;
+			}
+			select:focus{
+				color: blue;
+				background-color: brown;
+			}
+
+			/* 选中的是div的后代p元素，p的父亲是
+			谁无所谓，但p必须是其父亲的第一个儿子 看结构  */
+
+
+		</style>
+
+	</head>
+	<body>
+		<a href="https://www.baidu.com">去百度</a>
+		<a href="https://www.jd.com">去京东</a>
+		<a href="https://www.baidu.com"></a>
+
+		<input type="text">
+		<br>
+		<input type="text">
+		<br>
+		<select>
+			<option value="beijing">北京</option>
+			<option value="shanghai">上海</option>
+			<option value="hangzhou">含税广州</option>
+		</select>
+
+
+		<!-- 结构伪类 -->
+
+		<div>			
+			<p>一张三</p>
+			<marquee>
+				<p>二</p>
+				<p>三</p>
+			</marquee>
+			
+			<p>四</p>	
+		</div>
+
+	</body>
+</html>
