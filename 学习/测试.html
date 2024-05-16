@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            /* 相对定位-父 */
+            position: relative;
+        }
+
+        .one li {
+            margin: 10px;
+        
+        }
+
+        /* 隐藏 */
+        .one ul {
+            /* 绝对定位-子 */
+            position: absolute;
+            background: #CCCCCC;
+            display: none;
+        }
+
+        /* 显示 */
+        .one li:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <ul class="one">
+
+        <li class="menu-item i2"><a class="menu-link" href="/3698/list.htm" target="_self">学院概况<em class="menu-switch-arrow"></em></a>
+            <ul class="sub-menu " style="display: none;">
+                
+                <li class="sub-item i2-1"><a class="sub-link" href="/3711/list.htm" target="_self">学院介绍</a></li>
+                
+                <li class="sub-item i2-2"><a class="sub-link" href="/3712/list.htm" target="_self">现任领导</a></li>
+                
+                <li class="sub-item i2-3"><a class="sub-link" href="/wyh/list.htm" target="_self">委员会</a></li>
+                
+                <li class="sub-item i2-4"><a class="sub-link" href="/3713/list.htm" target="_self">学院办公室</a></li>
+                
+                <li class="sub-item i2-5"><a class="sub-link" href="/xsgzbgs/list.htm" target="_self">学生工作办公室</a></li>
+                
+                <li class="sub-item i2-6"><a class="sub-link" href="/xbzx/list.htm" target="_self">系、中心</a></li>
+                
+            </ul>
+            
+        </li>
+        
+        <li class="menu-item i3"><a class="menu-link" href="/3699/list.htm" target="_self">师资队伍<em class="menu-switch-arrow"></em></a>
+            
+            
+            <ul class="sub-menu " style="display: none;">
+                
+                <li class="sub-item i3-1"><a class="sub-link" href="/3714/list.htm" target="_self">荣誉称号 </a></li>
+                
+                <li class="sub-item i3-2"><a class="sub-link" href="/3715/list.htm" target="_self">研究生导师 </a></li>
+                
+                <li class="sub-item i3-3"><a class="sub-link" href="/3716/list.htm" target="_self">教师队伍</a></li>
+                
+                <li class="sub-item i3-4"><a class="sub-link" href="/3717/list.htm" target="_self">人才引进</a></li>
+                
+            </ul>
+            
+        </li>
+        
+        <li class="menu-item i4"><a class="menu-link" href="/3700/list.htm" target="_self">人才培养<em class="menu-switch-arrow"></em></a>
+            
+            
+            <ul class="sub-menu " style="display: none;">
+                
+                <li class="sub-item i4-1"><a class="sub-link" href="/3718/list.htm" target="_self">本科生培养   </a></li>
+                
+                <li class="sub-item i4-2"><a class="sub-link" href="/3719/list.htm" target="_self">硕士生培养   </a></li>
+                
+                <li class="sub-item i4-3"><a class="sub-link" href="/3720/list.htm" target="_self">博士生培养 </a></li>
+                
+                <li class="sub-item i4-4"><a class="sub-link" href="/3721/list.htm" target="_self">现代产业学院</a></li>
+                
+            </ul>
+            
+        </li>
+     
+    </ul>
+    
+</body>
+</html>

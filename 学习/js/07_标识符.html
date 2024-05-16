@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>标识符</title>
+        <script>
+            /* 
+                在JS中，所有可以由我们自主命名的内容，都可以认为是一个标识符
+                    像 变量名 函数名 类名...
+                使用标识符需要遵循如下的命名规范：
+                    1. 标识符只能含有字母、数字、下划线、$，且不能以数字开头
+                    2. 标识符不能是JS中的关键字和保留字，也不建议使用内置的函数或类名作为变量名
+                    3. 命名规范：
+                        - 通常会使用驼峰命名法
+                            - 首字母小写，每个单词开头大写
+                            - maxlength --> maxLength
+                            - borderleftwidth --> borderLeftWidth
+
+                        - 类名会使用大驼峰命名法
+                            - 首字母大写，每个单词开头大写
+                            - maxlength --> MaxLength
+
+                        - 常量的字母会全部大写
+                            - MAX_LENGTH
+            */
+            let a = 10
+            let abc123_$ = 22
+            let _abc = 33
+            let $bcd = 44
+            
+            // let alert = 55
+            //alert(123)
+
+        </script>
+    </head>
+    <body></body>
+</html>

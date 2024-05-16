@@ -297,6 +297,70 @@ li {
 }
 
 
+
+/* 鼠标悬浮出现二级菜单------------------ */
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* 相对定位-父 */
+    position: relative;
+}
+
+.wp-menu li {
+    margin: 10px;
+
+}
+
+/* 隐藏 */
+.wp-menu ul {
+    /* 绝对定位-子 */
+    position: absolute;
+    background: #CCCCCC;
+    display: none;
+}
+
+/* 显示 */
+.wp-menu li:hover ul {
+    display: block;
+}
+.wp-menu li a:hover {
+    background-color: #14aef5;
+}
+.sub-menu{
+    display: none;
+}
+.sub-item {
+    padding: 0%;
+}
+
+.sub-item a {
+    margin: 0;
+}
+
+/* 悬浮之后显示出来 */
+.sub-menu :hover{
+    display: block;
+    background-color: #f4f6f7;
+}
+/* 悬浮之后背景色设置为白色 */
+.menu-item ul{
+    background-color: white;
+}
+
+
+.sub-item i2-1 :hover{
+    background-color: #14aef5;
+}
+
+.sub-item a:hover {
+    background-color: #004891;
+}
+/* ----------------------------------------- */
+
+
+
+
 /* 第三部分 轮播图 */
 #banner {
     background: url(images/banner.png) center;
@@ -403,14 +467,100 @@ mbanner .focus .focus-title-bg {
     background-color: #000;
     opacity: .4;
 }
+
+
 .mbanner .focus .focus-navigation {
     width: 39px;
     height: 64px;
     border-radius: 6px;
-    background: #000 url(images/slide_next.png) no-repeat 5px;
+    /* background: #000 url(/static/css/images/lb-idong-zuo.png) no-repeat 5px; */
     text-indent: -999em;
     opacity: .6;
 }
+
+.mbanner .focus .focus-next{
+    right: 0;
+    background: #000 url(/static/css/images/lb-yidong1.png) no-repeat 5px;
+    
+}
+.mbanner .focus .focus-prev{
+    right: 0;
+    background: #000 url(/static/css/images/lb-yidong-zuo.png) no-repeat 5px;
+ 
+}
+
+
+
+
+/* ======---------------------------------- */
+
+/* styles.css */  
+.slider {  
+    position: relative;  
+    width: 100%; /* 或你需要的宽度 */  
+    overflow: hidden;  
+}  
+  
+.slides {  
+    display: flex;  
+    transition: transform 0.5s ease;  
+}  
+  
+.slide {  
+    width: 100%;  
+    display: none;  
+}  
+  
+.slide.active {  
+    display: block;  
+}
+
+
+/* styles.css */  
+.eslider {  
+    position: relative;  
+    width: 100%; /* 或你需要的宽度 */  
+    overflow: hidden;  
+}  
+  
+.eslides {  
+    display: flex;  
+    transition: transform 0.5s ease;  
+}  
+  
+.eslide {  
+    width: 100%;  
+    display: none;  
+}  
+  
+.eslide.active {  
+    display: block;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mbanner .focus .focus-pagination {
     position: absolute;
     right: 14px;
@@ -452,8 +602,8 @@ mbanner .focus .focus-title-bg {
 /* 学院要闻  第一模块 */
 
 .main1 {
-    background: url(/static/css/images/mainbeijing.png);
-    height: 315px;
+    background: url(/static/css/images/mainbeijing.png) no-repeat;
+    /* height: 315px; */
 }
 .wrapper {
     margin: 0 auto;
